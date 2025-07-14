@@ -1,0 +1,15 @@
+{
+  "description": "Fast training configuration for quick experiments",
+  "base_path": "./data",
+  "mi_model_type": "LDA",
+  "mi_feature_type": "CSP",
+  "ssvep_model_type": "EnhancedFeatureClassifier",
+  "n_components": 4,
+  "epochs": 50,
+  "lr": 0.002,
+  "batch_size": 64,
+  "patience": 10,
+  "weight_decay": 0.0001,
+  "k_best": 200,
+  "random_seed": 0
+}

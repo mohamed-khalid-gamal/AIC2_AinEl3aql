@@ -1,0 +1,15 @@
+{
+  "description": "Best performance configuration (longer training)",
+  "base_path": "./data",
+  "mi_model_type": "CNNLSTM",
+  "mi_feature_type": "FBCSP",
+  "ssvep_model_type": "EnhancedFeatureClassifier",
+  "n_components": 12,
+  "epochs": 200,
+  "lr": 0.0005,
+  "batch_size": 16,
+  "patience": 25,
+  "weight_decay": 5e-05,
+  "k_best": 800,
+  "random_seed": 0
+}
